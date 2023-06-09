@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct SymbolsResponse: Decodable {
+    let success: Bool?
+    let symbolsDict: [String: String]?
+    
+    enum CodingKeys: String, CodingKey {
+        case success
+        case symbolsDict = "symbols"
+    }
+}
