@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Symbols: Codable {
+    let symbols: [String: String]?
+    let timestamp: TimeInterval
+}
