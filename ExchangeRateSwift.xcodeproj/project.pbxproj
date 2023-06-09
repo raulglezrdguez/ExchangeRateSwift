@@ -54,6 +54,7 @@
 		C448D2172A33A41600ED2C3F /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 		C448D2192A33A43C00ED2C3F /* SymbolsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsResponse.swift; sourceTree = "<group>"; };
 		C448D21B2A33A46900ED2C3F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C448D21D2A33A92400ED2C3F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,8 @@
 		C448D1DC2A33A2CE00ED2C3F = {
 			isa = PBXGroup;
 			children = (
+				C448D21E2A33A9B800ED2C3F /* Assets */,
+				C448D21D2A33A92400ED2C3F /* README.md */,
 				C448D1E72A33A2CE00ED2C3F /* ExchangeRateSwift */,
 				C448D1F82A33A2CF00ED2C3F /* ExchangeRateSwiftTests */,
 				C448D2022A33A2CF00ED2C3F /* ExchangeRateSwiftUITests */,
@@ -148,6 +151,13 @@
 				C448D21B2A33A46900ED2C3F /* ViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C448D21E2A33A9B800ED2C3F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
